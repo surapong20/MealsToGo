@@ -18,7 +18,7 @@ export default function App() {
           />
         </View>
         <View style={{ flex: 1, padding: 16, backgroundColor: "lightblue" }}>
-          <Text>list</Text>
+          <Text>list1</Text>
         </View>
       </View>
       <ExpoStatusBar style="auto" />
