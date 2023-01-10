@@ -4,7 +4,7 @@ import { Card } from "react-native-paper";
 
 export const RestaurantInfoCard = ({ ...restaurant }) => {
   const {
-    name = "Some Restaurant23",
+    name = "Some Restaurant",
     icon,
     photos = [
       "https://www.foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made-600x899.jpg",
