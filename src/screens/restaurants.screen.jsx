@@ -1,4 +1,4 @@
-import { StatusBar, StyleSheet, Text, View } from "react-native";
+import { StatusBar, StyleSheet, View } from "react-native";
 import { Searchbar } from "react-native-paper";
 import React, { useState } from "react";
 import { RestaurantInfoCard } from "../features/restaurants/components/restaurant-info-card.component";
@@ -16,7 +16,9 @@ export const RestaurantsScreen = () => {
           value={searchQuery}
         />
       </View>
-      <RestaurantInfoCard/>
+      <View style={styles.list}>
+        <RestaurantInfoCard />
+      </View>
     </View>
   );
 };
@@ -24,6 +26,10 @@ export const RestaurantsScreen = () => {
 const styles = StyleSheet.create({
   search: {
     padding: 20,
-    backgroundColor: "lightgreen",
+  },
+  list: {
+    flex: 1,
+    padding: 16,
+    backgroundColor: "lightblue",
   },
 });
