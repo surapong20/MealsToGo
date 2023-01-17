@@ -32,7 +32,7 @@ export const RestaurantInfoCard = ({ ...restaurant }) => {
     photos = [
       "https://tiermaker.com/images/templates/genshin-impact-food-24-1154603/11546031642848436.png",
     ],
-    address = "100 some random street",
+    address = "100 some random streets",
     isOpenNow = true,
     rating = 4,
     isClosedTemporarily,
