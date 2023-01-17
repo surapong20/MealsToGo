@@ -11,6 +11,7 @@ const SafeArea = styled.SafeAreaView`
 
 const SearchContainer = styled.View`
   padding: 16px;
+  background-color: lightyellow;
 `;
 
 const RastarantListContainer = styled.View`
