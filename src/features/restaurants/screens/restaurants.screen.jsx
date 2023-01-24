@@ -1,4 +1,4 @@
-import { StatusBar, StyleSheet, View, SafeAreaView } from "react-native";
+import { StatusBar } from "react-native";
 import { Searchbar } from "react-native-paper";
 import React, { useState } from "react";
 import styled from "styled-components/native";
