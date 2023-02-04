@@ -18,4 +18,5 @@ export const mockImages = [
   "https://www.foodiesfeed.com/wp-content/uploads/2019/04/mae-mu-pancakes-600x750.jpg",
   "https://www.foodiesfeed.com/wp-content/uploads/2019/02/messy-pizza-on-a-black-table-600x400.jpg",
   "https://www.foodiesfeed.com/wp-content/uploads/2019/02/pizza-ready-for-baking-600x400.jpg",
+  "https://tiermaker.com/images/templates/genshin-impact-food-24-1154603/11546031642848436.png",
 ];
