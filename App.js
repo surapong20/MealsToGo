@@ -10,7 +10,7 @@ import { RestaurantsContextProvider } from "./src/services/rastaurants/restauran
 import { LocationContextProvider } from "./src/services/location/location.context";
 import "react-native-gesture-handler";
 import { Navigation } from "./src/infrastructure/navigation";
-
+import { FavouritesContextProvider } from "./src/services/favourites/favourites.context";
 
 export default function App() {
   const [oswaldLoaded] = useOswald({ Oswald_400Regular });
@@ -23,11 +23,13 @@ export default function App() {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <LocationContextProvider>
-          <RestaurantsContextProvider>
-            <Navigation />
-          </RestaurantsContextProvider>
-        </LocationContextProvider>
+        <FavouritesContextProvider>
+          <LocationContextProvider>
+            <RestaurantsContextProvider>
+              <Navigation />
+            </RestaurantsContextProvider>
+          </LocationContextProvider>
+        </FavouritesContextProvider>
         <ExpoStatusBar style="auto" />
       </ThemeProvider>
     </>
