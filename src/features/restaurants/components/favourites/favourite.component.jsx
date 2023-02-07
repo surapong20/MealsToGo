@@ -9,11 +9,13 @@ const FavouriteButton = styled(TouchableOpacity)`
   right: 25px;
   z-index: 9;
 `;
+
 export const Favourite = ({ restaurant }) => {
   const { favourites, addToFavourites, removeFromFavourites } =
     useContext(FavouritesContext);
 
   const isFavourite = favourites.find((r) => r.placeId === restaurant.placeId);
+  
   return (
     <FavouriteButton
       onPress={() =>
